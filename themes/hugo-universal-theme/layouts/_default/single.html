@@ -23,7 +23,7 @@
 
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-9" id="blog-post">
+                    <div class="col-md-12" id="blog-post">
 
                         {{ if or .Params.author .Params.date }}
                           <p class="text-muted text-uppercase mb-small text-right">
@@ -45,11 +45,6 @@
                           {{ .Content }}
                         </div>
                         <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
 
                     </div>
                     <!-- /#blog-post -->
@@ -58,15 +53,6 @@
 
                     <!-- *** RIGHT COLUMN *** -->
 
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
                     <!-- /.col-md-3 -->
 
                     <!-- *** RIGHT COLUMN END *** -->

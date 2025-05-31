@@ -6,7 +6,7 @@ theme = 'hugo-universal-theme'
 style = "red"
 
 # Define the number of posts per page
-paginate = 10
+pagination.pagerSize = 10
 
 [menu]
 
@@ -125,7 +125,7 @@ paginate = 10
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2024, ASSOCIACAO DESPORTIVA ATLETA REI - 54.172.517/0001-97"
+    copyright = "Copyright (c) 2025, ASSOCIACAO DESPORTIVA ATLETA REI - 54.172.517/0001-97"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -154,10 +154,6 @@ paginate = 10
 
 
 # Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
 
 
 [params.carouselTestimonials]
